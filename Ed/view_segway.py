@@ -1,8 +1,10 @@
 import mujoco
 import mujoco.viewer
 import time
+import os
 
-model = mujoco.MjModel.from_xml_path("segway.xml")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+model = mujoco.MjModel.from_xml_path(os.path.join(script_dir, "segway.xml"))
 data = mujoco.MjData(model)
 
 data.qpos[0] = 0.0
