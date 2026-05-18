@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<mujoco model="segway">
+  <default>
+    <default class="wheel">
+      <geom type="cylinder" friction="2 0.005 0.0001"/>
+    </default>
+  </default>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb2="0 0 0" rgb1="1 1 1"/>
+    <material name="grid" texture="grid" texrepeat="2 2" texuniform="true" reflectance="0.0"/>
+    
+    <!-- Wheel stripe texture for rotation visibility -->
+    <texture name="wheel_stripe" type="2d" builtin="checker" width="256" height="256" rgb1="1 1 1" rgb2="0.2 0.2 0.2"/>
+    <material name="wheel_material" texture="wheel_stripe" texrepeat="4 1" texuniform="false" reflectance="0.3"/>
+  </asset>
+
+  <worldbody>
+    <geom name="ground" type="plane" size="5 5 .05" pos="0 0 -.5" material="grid"/>
+    <light name="spotlight" mode="targetbodycom" target="segway" ambient=".8 .8 .8" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="0 -6 4" cutoff="30"/>
+    <light name="top" pos="0 0 2" mode="trackcom"/>
+
+    
+    <body name="segway" pos="0 0 0.075">
+      <freejoint name="root"/>
+      
+      <!-- Chassis -->
+      <geom name="chassis" type="box" size="0.05 0.155 0.12" pos="0 0 0.12" mass="4.75" rgba="0.2 0.4 0.2 1"/>
+
+      <!-- Single centered wheel with axis parallel to ground (y-axis) -->
+      <body name="ground_wheel" pos="0 0 0" quat="0.7071 0.7071 0 0">
+        <joint name="joint_ground_wheel" type="hinge" axis="0 0 1" damping="0.05"/>
+        <geom name="wheel_geom" class="wheel" size="0.075 0.05" mass="0.32" material="wheel_material"/>
+      </body>
+
+      <!-- Reaction wheel -->
+      <body name="reaction_wheel" pos="0 0 0.3">
+        <joint name="joint_reaction_wheel" type="hinge" axis="0 0 1" damping="0.01"/>
+        <geom name="reaction_wheel" type="cylinder" size="0.1 0.05" pos="0 0 0" mass="0.5" material="wheel_material"/>
+      </body>
+    </body>
+  </worldbody>
+
+  <!-- Single actuator for wheel -->
+  <actuator>
+    <motor name="wheels_motor" joint="joint_ground_wheel" gear="1" ctrlrange="-5.0 5.0"/>
+  </actuator>
+  <actuator>
+    <motor name="reaction_wheel_motor" joint="joint_reaction_wheel" gear="1" ctrlrange="-5 5"/>
+  </actuator>
+  
+</mujoco>
