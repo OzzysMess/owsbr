@@ -16,7 +16,7 @@
   </asset>
 
   <worldbody>
-    <geom name="ground" type="plane" size="5 5 .05" pos="0 0 -.5" material="grid"/>
+    <geom name="ground" type="plane" size="5 5 .05" pos="0 0 0.0" material="grid"/>
     <light name="spotlight" mode="targetbodycom" target="segway" ambient=".8 .8 .8" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="0 -6 4" cutoff="30"/>
     <light name="top" pos="0 0 2" mode="trackcom"/>
 
