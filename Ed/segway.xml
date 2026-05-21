@@ -2,21 +2,48 @@
 
   <compiler angle="radian"/>
   <option timestep="0.002" gravity="0 0 -9.81" integrator="RK4"/>
-
+  <visual>
+    <headlight diffuse="0.8 0.8 0.8"
+              ambient="0.6 0.6 0.6"
+              specular="0.3 0.3 0.3"/>
+  </visual>
   <default>
     <joint damping="0.01" armature="0.001"/>
     <geom friction="1.2 0.01 0.001"/>
   </default>
 
   <worldbody>
-    <light pos="0 0 5" dir="0 0 -1"/>
+    <light pos="0 0 6" dir="0 0 -1" diffuse="1 1 1" specular="0.5 0.5 0.5"/>
     <geom name="ground"
           type="plane"
           size="10 10 0.1"
-          rgba="0.8 0.8 0.8 1"/>
+          rgba="0.95 0.95 0.95 1"/>
+<!-- Boundary walls -->
+    <geom name="wall_left"
+          type="box"
+          pos="-5 0 0.5"
+          size="0.1 5 0.5"
+          rgba="0.6 0.6 0.6 1"/>
 
+    <geom name="wall_right"
+          type="box"
+          pos="5 0 0.5"
+          size="0.1 5 0.5"
+          rgba="0.6 0.6 0.6 1"/>
+
+    <geom name="wall_back"
+          type="box"
+          pos="0 -5 0.5"
+          size="5 0.1 0.5"
+          rgba="0.6 0.6 0.6 1"/>
+
+    <geom name="wall_front"
+          type="box"
+          pos="0 5 0.5"
+          size="5 0.1 0.5"
+          rgba="0.6 0.6 0.6 1"/>
     <!-- Main Segway body -->
-    <body name="segway" pos="0 0 0.25">
+    <body name="segway" pos="0 0 0.18">
 
       <!-- The whole Segway can move in the x-z plane -->
       <joint name="x_slide" type="slide" axis="1 0 0"/>
@@ -36,7 +63,7 @@
             type="box"
             size="0.10 0.06 0.45"
             pos="0 0 0.45"
-            mass="1.5"
+            mass="8.0"
             rgba="0.1 0.1 0.8 1"/>
 
       <!-- Handlebar -->
@@ -44,7 +71,7 @@
             type="capsule"
             fromto="0 -0.25 0.85 0 0.25 0.85"
             size="0.025"
-            mass="0.1"
+            mass="1.0"
             rgba="0.1 0.1 0.1 1"/>
 
     </body>
