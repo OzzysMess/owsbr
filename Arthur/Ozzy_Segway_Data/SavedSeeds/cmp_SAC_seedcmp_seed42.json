@@ -1,0 +1,2101 @@
+{
+  "algo": "SAC",
+  "seed": 42,
+  "total_wall_time": 2059.15,
+  "total_steps": 500000,
+  "total_episodes": 449,
+  "steps_to_converge": 406497,
+  "timeseries": [
+    {
+      "steps": 2120,
+      "episodes": 13,
+      "wall_time": 0.07,
+      "avg_reward": -66.369,
+      "arrival_pct": 0.0,
+      "loss": 0.0
+    },
+    {
+      "steps": 4029,
+      "episodes": 24,
+      "wall_time": 0.14,
+      "avg_reward": -67.815,
+      "arrival_pct": 0.0,
+      "loss": 0.0
+    },
+    {
+      "steps": 6252,
+      "episodes": 36,
+      "wall_time": 4.91,
+      "avg_reward": -70.773,
+      "arrival_pct": 0.0,
+      "loss": 2.5937
+    },
+    {
+      "steps": 8366,
+      "episodes": 39,
+      "wall_time": 13.54,
+      "avg_reward": -84.977,
+      "arrival_pct": 0.0,
+      "loss": 0.1591
+    },
+    {
+      "steps": 11522,
+      "episodes": 41,
+      "wall_time": 24.83,
+      "avg_reward": -101.96,
+      "arrival_pct": 0.0,
+      "loss": 0.6346
+    },
+    {
+      "steps": 12971,
+      "episodes": 42,
+      "wall_time": 30.4,
+      "avg_reward": -111.046,
+      "arrival_pct": 0.0,
+      "loss": 1.0711
+    },
+    {
+      "steps": 14676,
+      "episodes": 43,
+      "wall_time": 36.54,
+      "avg_reward": -116.15,
+      "arrival_pct": 0.0,
+      "loss": 1.2822
+    },
+    {
+      "steps": 16416,
+      "episodes": 44,
+      "wall_time": 43.44,
+      "avg_reward": -119.468,
+      "arrival_pct": 0.0,
+      "loss": 1.3252
+    },
+    {
+      "steps": 19416,
+      "episodes": 45,
+      "wall_time": 53.8,
+      "avg_reward": -122.159,
+      "arrival_pct": 0.0,
+      "loss": 1.3421
+    },
+    {
+      "steps": 22416,
+      "episodes": 46,
+      "wall_time": 65.44,
+      "avg_reward": -124.475,
+      "arrival_pct": 0.0,
+      "loss": 1.3125
+    },
+    {
+      "steps": 25415,
+      "episodes": 47,
+      "wall_time": 77.52,
+      "avg_reward": -130.421,
+      "arrival_pct": 0.0,
+      "loss": 1.3643
+    },
+    {
+      "steps": 28235,
+      "episodes": 48,
+      "wall_time": 87.98,
+      "avg_reward": -135.21,
+      "arrival_pct": 0.0,
+      "loss": 1.3663
+    },
+    {
+      "steps": 30607,
+      "episodes": 49,
+      "wall_time": 97.44,
+      "avg_reward": -138.919,
+      "arrival_pct": 0.0,
+      "loss": 1.1731
+    },
+    {
+      "steps": 32368,
+      "episodes": 50,
+      "wall_time": 104.42,
+      "avg_reward": -141.433,
+      "arrival_pct": 0.0,
+      "loss": 1.009
+    },
+    {
+      "steps": 34826,
+      "episodes": 51,
+      "wall_time": 114.54,
+      "avg_reward": -144.943,
+      "arrival_pct": 0.0,
+      "loss": 0.943
+    },
+    {
+      "steps": 36323,
+      "episodes": 52,
+      "wall_time": 120.49,
+      "avg_reward": -146.908,
+      "arrival_pct": 0.0,
+      "loss": 0.581
+    },
+    {
+      "steps": 37711,
+      "episodes": 53,
+      "wall_time": 126.3,
+      "avg_reward": -148.639,
+      "arrival_pct": 0.0,
+      "loss": 0.4996
+    },
+    {
+      "steps": 39341,
+      "episodes": 54,
+      "wall_time": 132.36,
+      "avg_reward": -151.012,
+      "arrival_pct": 0.0,
+      "loss": 0.5903
+    },
+    {
+      "steps": 40391,
+      "episodes": 55,
+      "wall_time": 136.11,
+      "avg_reward": -150.077,
+      "arrival_pct": 0.0,
+      "loss": 0.611
+    },
+    {
+      "steps": 41694,
+      "episodes": 56,
+      "wall_time": 140.72,
+      "avg_reward": -148.922,
+      "arrival_pct": 0.0,
+      "loss": 0.4373
+    },
+    {
+      "steps": 43041,
+      "episodes": 57,
+      "wall_time": 145.51,
+      "avg_reward": -147.666,
+      "arrival_pct": 0.0,
+      "loss": 0.4002
+    },
+    {
+      "steps": 44679,
+      "episodes": 58,
+      "wall_time": 151.29,
+      "avg_reward": -147.048,
+      "arrival_pct": 0.0,
+      "loss": 0.549
+    },
+    {
+      "steps": 46734,
+      "episodes": 59,
+      "wall_time": 158.5,
+      "avg_reward": -149.461,
+      "arrival_pct": 0.0,
+      "loss": 0.5694
+    },
+    {
+      "steps": 48709,
+      "episodes": 60,
+      "wall_time": 165.47,
+      "avg_reward": -151.955,
+      "arrival_pct": 0.0,
+      "loss": 0.4483
+    },
+    {
+      "steps": 50155,
+      "episodes": 61,
+      "wall_time": 170.51,
+      "avg_reward": -152.449,
+      "arrival_pct": 0.0,
+      "loss": 0.5699
+    },
+    {
+      "steps": 52682,
+      "episodes": 63,
+      "wall_time": 179.73,
+      "avg_reward": -147.268,
+      "arrival_pct": 3.17,
+      "loss": 0.4882
+    },
+    {
+      "steps": 54790,
+      "episodes": 65,
+      "wall_time": 187.32,
+      "avg_reward": -141.965,
+      "arrival_pct": 6.15,
+      "loss": 0.655
+    },
+    {
+      "steps": 56821,
+      "episodes": 67,
+      "wall_time": 195.63,
+      "avg_reward": -136.901,
+      "arrival_pct": 8.96,
+      "loss": 0.7577
+    },
+    {
+      "steps": 58998,
+      "episodes": 69,
+      "wall_time": 204.33,
+      "avg_reward": -133.549,
+      "arrival_pct": 10.14,
+      "loss": 0.6494
+    },
+    {
+      "steps": 60194,
+      "episodes": 70,
+      "wall_time": 208.65,
+      "avg_reward": -131.427,
+      "arrival_pct": 11.43,
+      "loss": 0.8751
+    },
+    {
+      "steps": 63143,
+      "episodes": 72,
+      "wall_time": 219.78,
+      "avg_reward": -127.886,
+      "arrival_pct": 13.89,
+      "loss": 1.1288
+    },
+    {
+      "steps": 64851,
+      "episodes": 73,
+      "wall_time": 226.71,
+      "avg_reward": -126.503,
+      "arrival_pct": 15.07,
+      "loss": 1.1171
+    },
+    {
+      "steps": 67018,
+      "episodes": 74,
+      "wall_time": 235.07,
+      "avg_reward": -126.956,
+      "arrival_pct": 14.86,
+      "loss": 1.3646
+    },
+    {
+      "steps": 69874,
+      "episodes": 75,
+      "wall_time": 247.27,
+      "avg_reward": -128.243,
+      "arrival_pct": 14.67,
+      "loss": 0.963
+    },
+    {
+      "steps": 70936,
+      "episodes": 76,
+      "wall_time": 251.69,
+      "avg_reward": -126.274,
+      "arrival_pct": 15.79,
+      "loss": 1.1542
+    },
+    {
+      "steps": 73029,
+      "episodes": 78,
+      "wall_time": 260.0,
+      "avg_reward": -122.433,
+      "arrival_pct": 17.95,
+      "loss": 1.1211
+    },
+    {
+      "steps": 74076,
+      "episodes": 79,
+      "wall_time": 264.15,
+      "avg_reward": -120.549,
+      "arrival_pct": 18.99,
+      "loss": 1.042
+    },
+    {
+      "steps": 76467,
+      "episodes": 81,
+      "wall_time": 273.59,
+      "avg_reward": -120.881,
+      "arrival_pct": 19.75,
+      "loss": 1.1964
+    },
+    {
+      "steps": 78532,
+      "episodes": 83,
+      "wall_time": 281.96,
+      "avg_reward": -118.938,
+      "arrival_pct": 20.48,
+      "loss": 1.2873
+    },
+    {
+      "steps": 80765,
+      "episodes": 85,
+      "wall_time": 291.01,
+      "avg_reward": -115.631,
+      "arrival_pct": 22.35,
+      "loss": 1.1555
+    },
+    {
+      "steps": 83175,
+      "episodes": 87,
+      "wall_time": 300.77,
+      "avg_reward": -112.624,
+      "arrival_pct": 24.14,
+      "loss": 1.2167
+    },
+    {
+      "steps": 84314,
+      "episodes": 88,
+      "wall_time": 305.33,
+      "avg_reward": -111.121,
+      "arrival_pct": 25.0,
+      "loss": 1.4883
+    },
+    {
+      "steps": 86869,
+      "episodes": 90,
+      "wall_time": 317.41,
+      "avg_reward": -108.444,
+      "arrival_pct": 26.67,
+      "loss": 1.4398
+    },
+    {
+      "steps": 88213,
+      "episodes": 91,
+      "wall_time": 323.15,
+      "avg_reward": -107.18,
+      "arrival_pct": 27.47,
+      "loss": 1.3545
+    },
+    {
+      "steps": 90207,
+      "episodes": 92,
+      "wall_time": 331.24,
+      "avg_reward": -106.412,
+      "arrival_pct": 28.26,
+      "loss": 1.1499
+    },
+    {
+      "steps": 93207,
+      "episodes": 93,
+      "wall_time": 342.41,
+      "avg_reward": -107.635,
+      "arrival_pct": 27.96,
+      "loss": 1.1887
+    },
+    {
+      "steps": 94841,
+      "episodes": 94,
+      "wall_time": 348.23,
+      "avg_reward": -106.735,
+      "arrival_pct": 28.72,
+      "loss": 1.0279
+    },
+    {
+      "steps": 96570,
+      "episodes": 95,
+      "wall_time": 354.55,
+      "avg_reward": -105.956,
+      "arrival_pct": 29.47,
+      "loss": 1.0911
+    },
+    {
+      "steps": 98511,
+      "episodes": 96,
+      "wall_time": 361.7,
+      "avg_reward": -105.365,
+      "arrival_pct": 30.21,
+      "loss": 0.976
+    },
+    {
+      "steps": 101511,
+      "episodes": 97,
+      "wall_time": 372.47,
+      "avg_reward": -106.586,
+      "arrival_pct": 29.9,
+      "loss": 0.8599
+    },
+    {
+      "steps": 104511,
+      "episodes": 98,
+      "wall_time": 383.67,
+      "avg_reward": -107.947,
+      "arrival_pct": 29.59,
+      "loss": 0.9096
+    },
+    {
+      "steps": 106362,
+      "episodes": 99,
+      "wall_time": 390.2,
+      "avg_reward": -107.298,
+      "arrival_pct": 30.3,
+      "loss": 0.7752
+    },
+    {
+      "steps": 108460,
+      "episodes": 100,
+      "wall_time": 397.6,
+      "avg_reward": -106.835,
+      "arrival_pct": 31.0,
+      "loss": 0.7367
+    },
+    {
+      "steps": 109941,
+      "episodes": 101,
+      "wall_time": 402.91,
+      "avg_reward": -106.268,
+      "arrival_pct": 31.68,
+      "loss": 0.7657
+    },
+    {
+      "steps": 111086,
+      "episodes": 102,
+      "wall_time": 407.14,
+      "avg_reward": -105.35,
+      "arrival_pct": 32.35,
+      "loss": 0.8837
+    },
+    {
+      "steps": 112173,
+      "episodes": 103,
+      "wall_time": 411.24,
+      "avg_reward": -104.554,
+      "arrival_pct": 33.01,
+      "loss": 0.6256
+    },
+    {
+      "steps": 114311,
+      "episodes": 105,
+      "wall_time": 418.9,
+      "avg_reward": -102.77,
+      "arrival_pct": 34.29,
+      "loss": 0.953
+    },
+    {
+      "steps": 116467,
+      "episodes": 107,
+      "wall_time": 426.89,
+      "avg_reward": -101.114,
+      "arrival_pct": 35.51,
+      "loss": 0.8459
+    },
+    {
+      "steps": 118741,
+      "episodes": 109,
+      "wall_time": 435.18,
+      "avg_reward": -99.484,
+      "arrival_pct": 36.7,
+      "loss": 0.7469
+    },
+    {
+      "steps": 120936,
+      "episodes": 111,
+      "wall_time": 443.72,
+      "avg_reward": -97.512,
+      "arrival_pct": 37.84,
+      "loss": 0.8205
+    },
+    {
+      "steps": 122036,
+      "episodes": 112,
+      "wall_time": 447.6,
+      "avg_reward": -96.618,
+      "arrival_pct": 38.39,
+      "loss": 0.8351
+    },
+    {
+      "steps": 124288,
+      "episodes": 114,
+      "wall_time": 456.62,
+      "avg_reward": -94.628,
+      "arrival_pct": 39.47,
+      "loss": 0.6627
+    },
+    {
+      "steps": 126520,
+      "episodes": 116,
+      "wall_time": 464.84,
+      "avg_reward": -93.018,
+      "arrival_pct": 40.52,
+      "loss": 0.7339
+    },
+    {
+      "steps": 128753,
+      "episodes": 118,
+      "wall_time": 472.86,
+      "avg_reward": -91.047,
+      "arrival_pct": 41.53,
+      "loss": 0.5985
+    },
+    {
+      "steps": 130943,
+      "episodes": 120,
+      "wall_time": 482.38,
+      "avg_reward": -89.137,
+      "arrival_pct": 42.5,
+      "loss": 0.6767
+    },
+    {
+      "steps": 132015,
+      "episodes": 121,
+      "wall_time": 486.81,
+      "avg_reward": -88.438,
+      "arrival_pct": 42.98,
+      "loss": 0.6614
+    },
+    {
+      "steps": 134274,
+      "episodes": 123,
+      "wall_time": 495.86,
+      "avg_reward": -86.742,
+      "arrival_pct": 43.9,
+      "loss": 0.6854
+    },
+    {
+      "steps": 136678,
+      "episodes": 125,
+      "wall_time": 505.46,
+      "avg_reward": -85.064,
+      "arrival_pct": 44.8,
+      "loss": 0.5986
+    },
+    {
+      "steps": 138339,
+      "episodes": 126,
+      "wall_time": 512.1,
+      "avg_reward": -84.572,
+      "arrival_pct": 45.24,
+      "loss": 0.7014
+    },
+    {
+      "steps": 140419,
+      "episodes": 128,
+      "wall_time": 520.74,
+      "avg_reward": -82.648,
+      "arrival_pct": 46.09,
+      "loss": 0.6986
+    },
+    {
+      "steps": 142564,
+      "episodes": 130,
+      "wall_time": 529.48,
+      "avg_reward": -81.117,
+      "arrival_pct": 46.92,
+      "loss": 0.6185
+    },
+    {
+      "steps": 144671,
+      "episodes": 132,
+      "wall_time": 537.9,
+      "avg_reward": -79.53,
+      "arrival_pct": 47.73,
+      "loss": 0.6502
+    },
+    {
+      "steps": 147010,
+      "episodes": 134,
+      "wall_time": 547.35,
+      "avg_reward": -77.916,
+      "arrival_pct": 48.51,
+      "loss": 0.4724
+    },
+    {
+      "steps": 148122,
+      "episodes": 135,
+      "wall_time": 551.79,
+      "avg_reward": -76.3,
+      "arrival_pct": 48.89,
+      "loss": 0.5681
+    },
+    {
+      "steps": 150456,
+      "episodes": 137,
+      "wall_time": 561.13,
+      "avg_reward": -72.916,
+      "arrival_pct": 49.64,
+      "loss": 0.6308
+    },
+    {
+      "steps": 152604,
+      "episodes": 139,
+      "wall_time": 569.7,
+      "avg_reward": -66.467,
+      "arrival_pct": 50.36,
+      "loss": 0.6688
+    },
+    {
+      "steps": 154701,
+      "episodes": 141,
+      "wall_time": 578.08,
+      "avg_reward": -57.269,
+      "arrival_pct": 51.06,
+      "loss": 0.5958
+    },
+    {
+      "steps": 156989,
+      "episodes": 143,
+      "wall_time": 587.84,
+      "avg_reward": -48.732,
+      "arrival_pct": 51.75,
+      "loss": 0.5488
+    },
+    {
+      "steps": 158108,
+      "episodes": 144,
+      "wall_time": 592.55,
+      "avg_reward": -45.905,
+      "arrival_pct": 52.08,
+      "loss": 0.674
+    },
+    {
+      "steps": 160284,
+      "episodes": 146,
+      "wall_time": 601.27,
+      "avg_reward": -40.729,
+      "arrival_pct": 52.74,
+      "loss": 0.5837
+    },
+    {
+      "steps": 162550,
+      "episodes": 148,
+      "wall_time": 610.41,
+      "avg_reward": -32.666,
+      "arrival_pct": 53.38,
+      "loss": 0.6145
+    },
+    {
+      "steps": 164791,
+      "episodes": 150,
+      "wall_time": 619.69,
+      "avg_reward": -26.45,
+      "arrival_pct": 54.0,
+      "loss": 0.4003
+    },
+    {
+      "steps": 167028,
+      "episodes": 152,
+      "wall_time": 629.37,
+      "avg_reward": -20.36,
+      "arrival_pct": 54.61,
+      "loss": 0.473
+    },
+    {
+      "steps": 168108,
+      "episodes": 153,
+      "wall_time": 634.22,
+      "avg_reward": -17.789,
+      "arrival_pct": 54.9,
+      "loss": 0.5073
+    },
+    {
+      "steps": 170200,
+      "episodes": 155,
+      "wall_time": 643.68,
+      "avg_reward": -13.579,
+      "arrival_pct": 55.48,
+      "loss": 0.5327
+    },
+    {
+      "steps": 172399,
+      "episodes": 157,
+      "wall_time": 654.13,
+      "avg_reward": -11.52,
+      "arrival_pct": 56.05,
+      "loss": 0.4355
+    },
+    {
+      "steps": 174613,
+      "episodes": 159,
+      "wall_time": 665.01,
+      "avg_reward": -7.352,
+      "arrival_pct": 56.6,
+      "loss": 0.429
+    },
+    {
+      "steps": 176741,
+      "episodes": 161,
+      "wall_time": 678.25,
+      "avg_reward": -2.033,
+      "arrival_pct": 57.14,
+      "loss": 0.4045
+    },
+    {
+      "steps": 178928,
+      "episodes": 163,
+      "wall_time": 688.29,
+      "avg_reward": -1.803,
+      "arrival_pct": 57.67,
+      "loss": 0.3988
+    },
+    {
+      "steps": 180017,
+      "episodes": 164,
+      "wall_time": 692.96,
+      "avg_reward": -1.798,
+      "arrival_pct": 57.93,
+      "loss": 0.3517
+    },
+    {
+      "steps": 182151,
+      "episodes": 166,
+      "wall_time": 702.07,
+      "avg_reward": -2.036,
+      "arrival_pct": 58.43,
+      "loss": 0.3858
+    },
+    {
+      "steps": 184434,
+      "episodes": 168,
+      "wall_time": 711.61,
+      "avg_reward": -1.37,
+      "arrival_pct": 58.93,
+      "loss": 0.3362
+    },
+    {
+      "steps": 186777,
+      "episodes": 170,
+      "wall_time": 721.21,
+      "avg_reward": -1.453,
+      "arrival_pct": 59.41,
+      "loss": 0.2521
+    },
+    {
+      "steps": 188158,
+      "episodes": 171,
+      "wall_time": 726.83,
+      "avg_reward": -3.615,
+      "arrival_pct": 59.06,
+      "loss": 0.2554
+    },
+    {
+      "steps": 192341,
+      "episodes": 173,
+      "wall_time": 744.02,
+      "avg_reward": -4.709,
+      "arrival_pct": 59.54,
+      "loss": 0.2471
+    },
+    {
+      "steps": 193534,
+      "episodes": 174,
+      "wall_time": 748.82,
+      "avg_reward": -2.969,
+      "arrival_pct": 59.77,
+      "loss": 0.3138
+    },
+    {
+      "steps": 194688,
+      "episodes": 175,
+      "wall_time": 753.48,
+      "avg_reward": -0.572,
+      "arrival_pct": 60.0,
+      "loss": 0.2399
+    },
+    {
+      "steps": 196914,
+      "episodes": 177,
+      "wall_time": 762.71,
+      "avg_reward": -0.644,
+      "arrival_pct": 60.45,
+      "loss": 0.2202
+    },
+    {
+      "steps": 198105,
+      "episodes": 178,
+      "wall_time": 767.52,
+      "avg_reward": -0.746,
+      "arrival_pct": 60.67,
+      "loss": 0.2692
+    },
+    {
+      "steps": 200384,
+      "episodes": 180,
+      "wall_time": 776.65,
+      "avg_reward": -0.95,
+      "arrival_pct": 61.11,
+      "loss": 0.2209
+    },
+    {
+      "steps": 202605,
+      "episodes": 182,
+      "wall_time": 785.58,
+      "avg_reward": 3.426,
+      "arrival_pct": 61.54,
+      "loss": 0.1761
+    },
+    {
+      "steps": 204938,
+      "episodes": 184,
+      "wall_time": 794.99,
+      "avg_reward": 3.246,
+      "arrival_pct": 61.96,
+      "loss": 0.2648
+    },
+    {
+      "steps": 206082,
+      "episodes": 185,
+      "wall_time": 799.69,
+      "avg_reward": 3.234,
+      "arrival_pct": 62.16,
+      "loss": 0.2081
+    },
+    {
+      "steps": 208201,
+      "episodes": 187,
+      "wall_time": 808.29,
+      "avg_reward": 3.411,
+      "arrival_pct": 62.57,
+      "loss": 0.159
+    },
+    {
+      "steps": 210123,
+      "episodes": 189,
+      "wall_time": 816.12,
+      "avg_reward": 3.643,
+      "arrival_pct": 62.96,
+      "loss": 0.1768
+    },
+    {
+      "steps": 212049,
+      "episodes": 191,
+      "wall_time": 824.16,
+      "avg_reward": 4.113,
+      "arrival_pct": 63.35,
+      "loss": 0.1181
+    },
+    {
+      "steps": 214108,
+      "episodes": 193,
+      "wall_time": 833.21,
+      "avg_reward": 7.19,
+      "arrival_pct": 63.73,
+      "loss": 0.1666
+    },
+    {
+      "steps": 216269,
+      "episodes": 195,
+      "wall_time": 842.17,
+      "avg_reward": 8.216,
+      "arrival_pct": 64.1,
+      "loss": 0.1721
+    },
+    {
+      "steps": 218970,
+      "episodes": 197,
+      "wall_time": 855.61,
+      "avg_reward": 11.004,
+      "arrival_pct": 64.47,
+      "loss": 0.141
+    },
+    {
+      "steps": 220750,
+      "episodes": 198,
+      "wall_time": 863.44,
+      "avg_reward": 13.044,
+      "arrival_pct": 64.65,
+      "loss": 0.1257
+    },
+    {
+      "steps": 222242,
+      "episodes": 199,
+      "wall_time": 870.38,
+      "avg_reward": 13.373,
+      "arrival_pct": 64.82,
+      "loss": 0.132
+    },
+    {
+      "steps": 224850,
+      "episodes": 201,
+      "wall_time": 881.4,
+      "avg_reward": 14.208,
+      "arrival_pct": 65.5,
+      "loss": 0.1402
+    },
+    {
+      "steps": 226273,
+      "episodes": 202,
+      "wall_time": 888.89,
+      "avg_reward": 14.001,
+      "arrival_pct": 66.0,
+      "loss": 0.1186
+    },
+    {
+      "steps": 228958,
+      "episodes": 204,
+      "wall_time": 902.22,
+      "avg_reward": 13.577,
+      "arrival_pct": 67.0,
+      "loss": 0.1003
+    },
+    {
+      "steps": 230066,
+      "episodes": 205,
+      "wall_time": 907.06,
+      "avg_reward": 13.544,
+      "arrival_pct": 67.5,
+      "loss": 0.1268
+    },
+    {
+      "steps": 232028,
+      "episodes": 207,
+      "wall_time": 916.32,
+      "avg_reward": 13.67,
+      "arrival_pct": 68.5,
+      "loss": 0.1334
+    },
+    {
+      "steps": 234077,
+      "episodes": 209,
+      "wall_time": 925.83,
+      "avg_reward": 13.769,
+      "arrival_pct": 69.5,
+      "loss": 0.1754
+    },
+    {
+      "steps": 236542,
+      "episodes": 211,
+      "wall_time": 937.25,
+      "avg_reward": 13.569,
+      "arrival_pct": 70.5,
+      "loss": 0.1301
+    },
+    {
+      "steps": 238892,
+      "episodes": 213,
+      "wall_time": 947.47,
+      "avg_reward": 13.472,
+      "arrival_pct": 71.5,
+      "loss": 0.1924
+    },
+    {
+      "steps": 240969,
+      "episodes": 215,
+      "wall_time": 956.14,
+      "avg_reward": 13.575,
+      "arrival_pct": 72.5,
+      "loss": 0.1862
+    },
+    {
+      "steps": 242041,
+      "episodes": 216,
+      "wall_time": 960.74,
+      "avg_reward": 13.593,
+      "arrival_pct": 73.0,
+      "loss": 0.0974
+    },
+    {
+      "steps": 244367,
+      "episodes": 218,
+      "wall_time": 970.43,
+      "avg_reward": 13.505,
+      "arrival_pct": 74.0,
+      "loss": 0.0842
+    },
+    {
+      "steps": 246637,
+      "episodes": 220,
+      "wall_time": 979.86,
+      "avg_reward": 13.432,
+      "arrival_pct": 75.0,
+      "loss": 0.1693
+    },
+    {
+      "steps": 248758,
+      "episodes": 222,
+      "wall_time": 988.65,
+      "avg_reward": 13.621,
+      "arrival_pct": 76.0,
+      "loss": 0.1603
+    },
+    {
+      "steps": 251153,
+      "episodes": 224,
+      "wall_time": 998.86,
+      "avg_reward": 13.516,
+      "arrival_pct": 77.0,
+      "loss": 0.1809
+    },
+    {
+      "steps": 252217,
+      "episodes": 225,
+      "wall_time": 1003.42,
+      "avg_reward": 13.769,
+      "arrival_pct": 77.5,
+      "loss": 0.2844
+    },
+    {
+      "steps": 254354,
+      "episodes": 227,
+      "wall_time": 1012.53,
+      "avg_reward": 14.144,
+      "arrival_pct": 78.5,
+      "loss": 0.0945
+    },
+    {
+      "steps": 256436,
+      "episodes": 229,
+      "wall_time": 1021.41,
+      "avg_reward": 14.164,
+      "arrival_pct": 79.5,
+      "loss": 0.1731
+    },
+    {
+      "steps": 258673,
+      "episodes": 231,
+      "wall_time": 1031.22,
+      "avg_reward": 14.249,
+      "arrival_pct": 80.5,
+      "loss": 0.1237
+    },
+    {
+      "steps": 260758,
+      "episodes": 233,
+      "wall_time": 1040.27,
+      "avg_reward": 14.286,
+      "arrival_pct": 81.5,
+      "loss": 0.0667
+    },
+    {
+      "steps": 262768,
+      "episodes": 235,
+      "wall_time": 1049.04,
+      "avg_reward": 14.513,
+      "arrival_pct": 82.5,
+      "loss": 0.0887
+    },
+    {
+      "steps": 264821,
+      "episodes": 237,
+      "wall_time": 1058.07,
+      "avg_reward": 14.671,
+      "arrival_pct": 83.5,
+      "loss": 0.1262
+    },
+    {
+      "steps": 266885,
+      "episodes": 239,
+      "wall_time": 1067.39,
+      "avg_reward": 14.751,
+      "arrival_pct": 84.5,
+      "loss": 0.1418
+    },
+    {
+      "steps": 268033,
+      "episodes": 240,
+      "wall_time": 1072.43,
+      "avg_reward": 14.667,
+      "arrival_pct": 85.0,
+      "loss": 0.0838
+    },
+    {
+      "steps": 270066,
+      "episodes": 242,
+      "wall_time": 1081.44,
+      "avg_reward": 14.746,
+      "arrival_pct": 86.0,
+      "loss": 0.093
+    },
+    {
+      "steps": 272144,
+      "episodes": 244,
+      "wall_time": 1090.66,
+      "avg_reward": 14.911,
+      "arrival_pct": 87.0,
+      "loss": 0.1468
+    },
+    {
+      "steps": 274187,
+      "episodes": 246,
+      "wall_time": 1100.03,
+      "avg_reward": 14.967,
+      "arrival_pct": 88.0,
+      "loss": 0.0594
+    },
+    {
+      "steps": 276263,
+      "episodes": 248,
+      "wall_time": 1109.36,
+      "avg_reward": 15.094,
+      "arrival_pct": 89.0,
+      "loss": 0.1483
+    },
+    {
+      "steps": 278401,
+      "episodes": 250,
+      "wall_time": 1119.0,
+      "avg_reward": 15.223,
+      "arrival_pct": 90.0,
+      "loss": 0.1331
+    },
+    {
+      "steps": 280612,
+      "episodes": 252,
+      "wall_time": 1128.94,
+      "avg_reward": 15.3,
+      "arrival_pct": 91.0,
+      "loss": 0.0241
+    },
+    {
+      "steps": 282905,
+      "episodes": 254,
+      "wall_time": 1139.11,
+      "avg_reward": 15.344,
+      "arrival_pct": 92.0,
+      "loss": 0.1039
+    },
+    {
+      "steps": 284007,
+      "episodes": 255,
+      "wall_time": 1144.02,
+      "avg_reward": 15.336,
+      "arrival_pct": 92.5,
+      "loss": 0.0447
+    },
+    {
+      "steps": 286163,
+      "episodes": 257,
+      "wall_time": 1153.62,
+      "avg_reward": 15.403,
+      "arrival_pct": 93.5,
+      "loss": 0.1088
+    },
+    {
+      "steps": 288317,
+      "episodes": 259,
+      "wall_time": 1163.11,
+      "avg_reward": 15.74,
+      "arrival_pct": 94.5,
+      "loss": 0.0659
+    },
+    {
+      "steps": 290491,
+      "episodes": 261,
+      "wall_time": 1172.84,
+      "avg_reward": 15.71,
+      "arrival_pct": 95.5,
+      "loss": 0.1254
+    },
+    {
+      "steps": 292587,
+      "episodes": 263,
+      "wall_time": 1182.17,
+      "avg_reward": 15.791,
+      "arrival_pct": 95.5,
+      "loss": 0.1007
+    },
+    {
+      "steps": 294740,
+      "episodes": 265,
+      "wall_time": 1192.21,
+      "avg_reward": 15.849,
+      "arrival_pct": 95.5,
+      "loss": 0.0976
+    },
+    {
+      "steps": 296931,
+      "episodes": 267,
+      "wall_time": 1201.84,
+      "avg_reward": 16.034,
+      "arrival_pct": 95.5,
+      "loss": 0.0954
+    },
+    {
+      "steps": 298067,
+      "episodes": 268,
+      "wall_time": 1206.8,
+      "avg_reward": 16.104,
+      "arrival_pct": 96.0,
+      "loss": 0.0469
+    },
+    {
+      "steps": 300153,
+      "episodes": 270,
+      "wall_time": 1215.96,
+      "avg_reward": 16.329,
+      "arrival_pct": 96.0,
+      "loss": 0.1285
+    },
+    {
+      "steps": 302372,
+      "episodes": 272,
+      "wall_time": 1225.69,
+      "avg_reward": 18.896,
+      "arrival_pct": 96.0,
+      "loss": 0.0743
+    },
+    {
+      "steps": 304590,
+      "episodes": 274,
+      "wall_time": 1235.48,
+      "avg_reward": 20.578,
+      "arrival_pct": 96.5,
+      "loss": 0.1075
+    },
+    {
+      "steps": 306656,
+      "episodes": 276,
+      "wall_time": 1244.56,
+      "avg_reward": 20.771,
+      "arrival_pct": 97.0,
+      "loss": 0.2321
+    },
+    {
+      "steps": 308706,
+      "episodes": 278,
+      "wall_time": 1258.77,
+      "avg_reward": 20.972,
+      "arrival_pct": 97.0,
+      "loss": 0.1364
+    },
+    {
+      "steps": 310754,
+      "episodes": 280,
+      "wall_time": 1270.49,
+      "avg_reward": 21.121,
+      "arrival_pct": 97.0,
+      "loss": 0.0557
+    },
+    {
+      "steps": 312802,
+      "episodes": 282,
+      "wall_time": 1280.41,
+      "avg_reward": 21.243,
+      "arrival_pct": 98.0,
+      "loss": 0.1452
+    },
+    {
+      "steps": 314809,
+      "episodes": 284,
+      "wall_time": 1289.63,
+      "avg_reward": 21.479,
+      "arrival_pct": 98.0,
+      "loss": 0.0326
+    },
+    {
+      "steps": 316939,
+      "episodes": 286,
+      "wall_time": 1299.27,
+      "avg_reward": 21.604,
+      "arrival_pct": 98.0,
+      "loss": 0.0934
+    },
+    {
+      "steps": 318973,
+      "episodes": 288,
+      "wall_time": 1308.35,
+      "avg_reward": 21.473,
+      "arrival_pct": 98.0,
+      "loss": 0.094
+    },
+    {
+      "steps": 321007,
+      "episodes": 290,
+      "wall_time": 1317.38,
+      "avg_reward": 21.451,
+      "arrival_pct": 98.0,
+      "loss": 0.0592
+    },
+    {
+      "steps": 322011,
+      "episodes": 291,
+      "wall_time": 1321.83,
+      "avg_reward": 21.424,
+      "arrival_pct": 98.0,
+      "loss": 0.1197
+    },
+    {
+      "steps": 324011,
+      "episodes": 293,
+      "wall_time": 1330.8,
+      "avg_reward": 21.467,
+      "arrival_pct": 98.5,
+      "loss": 0.0261
+    },
+    {
+      "steps": 326035,
+      "episodes": 295,
+      "wall_time": 1339.87,
+      "avg_reward": 21.497,
+      "arrival_pct": 98.5,
+      "loss": 0.0372
+    },
+    {
+      "steps": 328066,
+      "episodes": 297,
+      "wall_time": 1348.96,
+      "avg_reward": 21.937,
+      "arrival_pct": 99.0,
+      "loss": 0.0313
+    },
+    {
+      "steps": 330018,
+      "episodes": 299,
+      "wall_time": 1358.12,
+      "avg_reward": 22.954,
+      "arrival_pct": 99.5,
+      "loss": 0.0653
+    },
+    {
+      "steps": 332955,
+      "episodes": 302,
+      "wall_time": 1371.78,
+      "avg_reward": 23.667,
+      "arrival_pct": 99.5,
+      "loss": 0.0918
+    },
+    {
+      "steps": 334017,
+      "episodes": 303,
+      "wall_time": 1376.76,
+      "avg_reward": 23.744,
+      "arrival_pct": 99.5,
+      "loss": 0.1161
+    },
+    {
+      "steps": 336170,
+      "episodes": 305,
+      "wall_time": 1386.93,
+      "avg_reward": 24.057,
+      "arrival_pct": 99.5,
+      "loss": 0.102
+    },
+    {
+      "steps": 338258,
+      "episodes": 307,
+      "wall_time": 1397.1,
+      "avg_reward": 23.959,
+      "arrival_pct": 99.5,
+      "loss": 0.0962
+    },
+    {
+      "steps": 340355,
+      "episodes": 309,
+      "wall_time": 1407.69,
+      "avg_reward": 23.878,
+      "arrival_pct": 99.5,
+      "loss": 0.1607
+    },
+    {
+      "steps": 342385,
+      "episodes": 311,
+      "wall_time": 1417.51,
+      "avg_reward": 24.153,
+      "arrival_pct": 99.5,
+      "loss": 0.1884
+    },
+    {
+      "steps": 344351,
+      "episodes": 313,
+      "wall_time": 1427.0,
+      "avg_reward": 24.34,
+      "arrival_pct": 99.5,
+      "loss": 0.1119
+    },
+    {
+      "steps": 346433,
+      "episodes": 315,
+      "wall_time": 1437.08,
+      "avg_reward": 24.283,
+      "arrival_pct": 99.5,
+      "loss": 0.0879
+    },
+    {
+      "steps": 348560,
+      "episodes": 317,
+      "wall_time": 1447.33,
+      "avg_reward": 24.394,
+      "arrival_pct": 99.5,
+      "loss": 0.0641
+    },
+    {
+      "steps": 350658,
+      "episodes": 319,
+      "wall_time": 1457.67,
+      "avg_reward": 24.512,
+      "arrival_pct": 99.5,
+      "loss": 0.1002
+    },
+    {
+      "steps": 352656,
+      "episodes": 321,
+      "wall_time": 1467.52,
+      "avg_reward": 24.57,
+      "arrival_pct": 99.5,
+      "loss": 0.1343
+    },
+    {
+      "steps": 354597,
+      "episodes": 323,
+      "wall_time": 1476.82,
+      "avg_reward": 24.679,
+      "arrival_pct": 99.5,
+      "loss": 0.0401
+    },
+    {
+      "steps": 356525,
+      "episodes": 325,
+      "wall_time": 1485.98,
+      "avg_reward": 24.889,
+      "arrival_pct": 99.5,
+      "loss": 0.0335
+    },
+    {
+      "steps": 358553,
+      "episodes": 327,
+      "wall_time": 1495.79,
+      "avg_reward": 24.85,
+      "arrival_pct": 99.5,
+      "loss": 0.1234
+    },
+    {
+      "steps": 360672,
+      "episodes": 329,
+      "wall_time": 1505.81,
+      "avg_reward": 24.763,
+      "arrival_pct": 99.5,
+      "loss": 0.1452
+    },
+    {
+      "steps": 362783,
+      "episodes": 331,
+      "wall_time": 1515.78,
+      "avg_reward": 24.871,
+      "arrival_pct": 99.5,
+      "loss": 0.1189
+    },
+    {
+      "steps": 364964,
+      "episodes": 333,
+      "wall_time": 1526.18,
+      "avg_reward": 24.847,
+      "arrival_pct": 99.5,
+      "loss": 0.1683
+    },
+    {
+      "steps": 366009,
+      "episodes": 334,
+      "wall_time": 1531.1,
+      "avg_reward": 24.812,
+      "arrival_pct": 99.5,
+      "loss": 0.1185
+    },
+    {
+      "steps": 368066,
+      "episodes": 336,
+      "wall_time": 1540.86,
+      "avg_reward": 24.84,
+      "arrival_pct": 99.5,
+      "loss": 0.1288
+    },
+    {
+      "steps": 370100,
+      "episodes": 338,
+      "wall_time": 1550.5,
+      "avg_reward": 24.852,
+      "arrival_pct": 99.5,
+      "loss": 0.0854
+    },
+    {
+      "steps": 372109,
+      "episodes": 340,
+      "wall_time": 1560.75,
+      "avg_reward": 24.926,
+      "arrival_pct": 99.5,
+      "loss": 0.1225
+    },
+    {
+      "steps": 374296,
+      "episodes": 342,
+      "wall_time": 1571.54,
+      "avg_reward": 24.785,
+      "arrival_pct": 99.5,
+      "loss": 0.0496
+    },
+    {
+      "steps": 376332,
+      "episodes": 344,
+      "wall_time": 1581.24,
+      "avg_reward": 24.691,
+      "arrival_pct": 99.5,
+      "loss": 0.1028
+    },
+    {
+      "steps": 378701,
+      "episodes": 346,
+      "wall_time": 1592.54,
+      "avg_reward": 24.389,
+      "arrival_pct": 99.5,
+      "loss": 0.1188
+    },
+    {
+      "steps": 381077,
+      "episodes": 348,
+      "wall_time": 1604.03,
+      "avg_reward": 24.146,
+      "arrival_pct": 99.5,
+      "loss": 0.1169
+    },
+    {
+      "steps": 382223,
+      "episodes": 349,
+      "wall_time": 1609.52,
+      "avg_reward": 24.053,
+      "arrival_pct": 99.5,
+      "loss": 0.0585
+    },
+    {
+      "steps": 384541,
+      "episodes": 351,
+      "wall_time": 1620.55,
+      "avg_reward": 23.872,
+      "arrival_pct": 99.5,
+      "loss": 0.054
+    },
+    {
+      "steps": 386843,
+      "episodes": 353,
+      "wall_time": 1631.57,
+      "avg_reward": 23.724,
+      "arrival_pct": 99.5,
+      "loss": 0.0726
+    },
+    {
+      "steps": 388008,
+      "episodes": 354,
+      "wall_time": 1637.14,
+      "avg_reward": 23.691,
+      "arrival_pct": 99.5,
+      "loss": 0.077
+    },
+    {
+      "steps": 390214,
+      "episodes": 356,
+      "wall_time": 1647.54,
+      "avg_reward": 23.643,
+      "arrival_pct": 99.5,
+      "loss": 0.0931
+    },
+    {
+      "steps": 392241,
+      "episodes": 358,
+      "wall_time": 1657.07,
+      "avg_reward": 23.68,
+      "arrival_pct": 99.5,
+      "loss": 0.1232
+    },
+    {
+      "steps": 394444,
+      "episodes": 360,
+      "wall_time": 1667.02,
+      "avg_reward": 23.657,
+      "arrival_pct": 99.5,
+      "loss": 0.1071
+    },
+    {
+      "steps": 396670,
+      "episodes": 362,
+      "wall_time": 1677.35,
+      "avg_reward": 23.464,
+      "arrival_pct": 99.5,
+      "loss": 0.1751
+    },
+    {
+      "steps": 398858,
+      "episodes": 364,
+      "wall_time": 1686.7,
+      "avg_reward": 23.363,
+      "arrival_pct": 99.5,
+      "loss": 0.1304
+    },
+    {
+      "steps": 401041,
+      "episodes": 366,
+      "wall_time": 1694.44,
+      "avg_reward": 23.344,
+      "arrival_pct": 99.5,
+      "loss": 0.1165
+    },
+    {
+      "steps": 402147,
+      "episodes": 367,
+      "wall_time": 1698.38,
+      "avg_reward": 23.334,
+      "arrival_pct": 99.5,
+      "loss": 0.1731
+    },
+    {
+      "steps": 404392,
+      "episodes": 369,
+      "wall_time": 1706.35,
+      "avg_reward": 23.268,
+      "arrival_pct": 99.5,
+      "loss": 0.0759
+    },
+    {
+      "steps": 406497,
+      "episodes": 371,
+      "wall_time": 1713.97,
+      "avg_reward": 23.289,
+      "arrival_pct": 100.0,
+      "loss": 0.1534
+    },
+    {
+      "steps": 408546,
+      "episodes": 373,
+      "wall_time": 1721.23,
+      "avg_reward": 23.429,
+      "arrival_pct": 100.0,
+      "loss": 0.1013
+    },
+    {
+      "steps": 410615,
+      "episodes": 375,
+      "wall_time": 1728.56,
+      "avg_reward": 23.478,
+      "arrival_pct": 100.0,
+      "loss": 0.0617
+    },
+    {
+      "steps": 412686,
+      "episodes": 377,
+      "wall_time": 1735.91,
+      "avg_reward": 23.487,
+      "arrival_pct": 100.0,
+      "loss": 0.111
+    },
+    {
+      "steps": 414800,
+      "episodes": 379,
+      "wall_time": 1743.38,
+      "avg_reward": 23.523,
+      "arrival_pct": 100.0,
+      "loss": 0.0318
+    },
+    {
+      "steps": 416941,
+      "episodes": 381,
+      "wall_time": 1750.95,
+      "avg_reward": 23.506,
+      "arrival_pct": 100.0,
+      "loss": 0.1177
+    },
+    {
+      "steps": 418039,
+      "episodes": 382,
+      "wall_time": 1754.81,
+      "avg_reward": 23.487,
+      "arrival_pct": 100.0,
+      "loss": 0.1196
+    },
+    {
+      "steps": 420570,
+      "episodes": 384,
+      "wall_time": 1764.13,
+      "avg_reward": 23.154,
+      "arrival_pct": 100.0,
+      "loss": 0.0615
+    },
+    {
+      "steps": 423373,
+      "episodes": 386,
+      "wall_time": 1773.98,
+      "avg_reward": 22.649,
+      "arrival_pct": 100.0,
+      "loss": 0.0642
+    },
+    {
+      "steps": 424458,
+      "episodes": 387,
+      "wall_time": 1777.87,
+      "avg_reward": 22.661,
+      "arrival_pct": 100.0,
+      "loss": 0.1929
+    },
+    {
+      "steps": 426257,
+      "episodes": 388,
+      "wall_time": 1784.19,
+      "avg_reward": 22.109,
+      "arrival_pct": 100.0,
+      "loss": 0.1444
+    },
+    {
+      "steps": 429257,
+      "episodes": 389,
+      "wall_time": 1795.14,
+      "avg_reward": 19.443,
+      "arrival_pct": 99.5,
+      "loss": 0.1607
+    },
+    {
+      "steps": 431079,
+      "episodes": 390,
+      "wall_time": 1801.52,
+      "avg_reward": 18.82,
+      "arrival_pct": 99.5,
+      "loss": 0.1165
+    },
+    {
+      "steps": 432583,
+      "episodes": 391,
+      "wall_time": 1806.79,
+      "avg_reward": 18.458,
+      "arrival_pct": 99.5,
+      "loss": 0.0962
+    },
+    {
+      "steps": 434000,
+      "episodes": 392,
+      "wall_time": 1811.76,
+      "avg_reward": 18.14,
+      "arrival_pct": 99.5,
+      "loss": 0.1009
+    },
+    {
+      "steps": 436248,
+      "episodes": 394,
+      "wall_time": 1819.84,
+      "avg_reward": 17.987,
+      "arrival_pct": 99.5,
+      "loss": 0.0972
+    },
+    {
+      "steps": 438948,
+      "episodes": 395,
+      "wall_time": 1829.36,
+      "avg_reward": 14.012,
+      "arrival_pct": 99.0,
+      "loss": 0.0459
+    },
+    {
+      "steps": 440999,
+      "episodes": 397,
+      "wall_time": 1836.63,
+      "avg_reward": 14.022,
+      "arrival_pct": 99.0,
+      "loss": 0.0339
+    },
+    {
+      "steps": 442059,
+      "episodes": 398,
+      "wall_time": 1840.36,
+      "avg_reward": 13.998,
+      "arrival_pct": 99.0,
+      "loss": 0.1287
+    },
+    {
+      "steps": 444220,
+      "episodes": 400,
+      "wall_time": 1847.98,
+      "avg_reward": 13.851,
+      "arrival_pct": 99.0,
+      "loss": 0.1096
+    },
+    {
+      "steps": 446444,
+      "episodes": 402,
+      "wall_time": 1855.85,
+      "avg_reward": 13.721,
+      "arrival_pct": 99.0,
+      "loss": 0.0875
+    },
+    {
+      "steps": 448631,
+      "episodes": 404,
+      "wall_time": 1863.7,
+      "avg_reward": 13.693,
+      "arrival_pct": 99.0,
+      "loss": 0.0382
+    },
+    {
+      "steps": 450779,
+      "episodes": 406,
+      "wall_time": 1871.9,
+      "avg_reward": 13.667,
+      "arrival_pct": 99.0,
+      "loss": 0.097
+    },
+    {
+      "steps": 452917,
+      "episodes": 408,
+      "wall_time": 1879.44,
+      "avg_reward": 13.675,
+      "arrival_pct": 99.0,
+      "loss": 0.0832
+    },
+    {
+      "steps": 454021,
+      "episodes": 409,
+      "wall_time": 1883.33,
+      "avg_reward": 13.614,
+      "arrival_pct": 99.0,
+      "loss": 0.0438
+    },
+    {
+      "steps": 456224,
+      "episodes": 411,
+      "wall_time": 1891.09,
+      "avg_reward": 13.532,
+      "arrival_pct": 99.0,
+      "loss": 0.2011
+    },
+    {
+      "steps": 458420,
+      "episodes": 413,
+      "wall_time": 1898.84,
+      "avg_reward": 13.479,
+      "arrival_pct": 99.0,
+      "loss": 0.1039
+    },
+    {
+      "steps": 460796,
+      "episodes": 415,
+      "wall_time": 1907.2,
+      "avg_reward": 13.403,
+      "arrival_pct": 99.0,
+      "loss": 0.0731
+    },
+    {
+      "steps": 462118,
+      "episodes": 416,
+      "wall_time": 1911.85,
+      "avg_reward": 13.283,
+      "arrival_pct": 99.0,
+      "loss": 0.0953
+    },
+    {
+      "steps": 464707,
+      "episodes": 418,
+      "wall_time": 1920.95,
+      "avg_reward": 13.154,
+      "arrival_pct": 99.0,
+      "loss": 0.0466
+    },
+    {
+      "steps": 466964,
+      "episodes": 420,
+      "wall_time": 1929.11,
+      "avg_reward": 12.971,
+      "arrival_pct": 99.0,
+      "loss": 0.0262
+    },
+    {
+      "steps": 468114,
+      "episodes": 421,
+      "wall_time": 1933.16,
+      "avg_reward": 12.848,
+      "arrival_pct": 99.0,
+      "loss": 0.1506
+    },
+    {
+      "steps": 470409,
+      "episodes": 423,
+      "wall_time": 1941.24,
+      "avg_reward": 12.673,
+      "arrival_pct": 99.0,
+      "loss": 0.027
+    },
+    {
+      "steps": 472480,
+      "episodes": 425,
+      "wall_time": 1948.53,
+      "avg_reward": 12.567,
+      "arrival_pct": 99.0,
+      "loss": 0.1439
+    },
+    {
+      "steps": 474635,
+      "episodes": 427,
+      "wall_time": 1956.12,
+      "avg_reward": 12.424,
+      "arrival_pct": 99.0,
+      "loss": 0.0371
+    },
+    {
+      "steps": 476931,
+      "episodes": 429,
+      "wall_time": 1964.2,
+      "avg_reward": 12.117,
+      "arrival_pct": 99.0,
+      "loss": 0.0704
+    },
+    {
+      "steps": 478190,
+      "episodes": 430,
+      "wall_time": 1968.64,
+      "avg_reward": 11.974,
+      "arrival_pct": 99.0,
+      "loss": 0.0938
+    },
+    {
+      "steps": 480915,
+      "episodes": 432,
+      "wall_time": 1978.23,
+      "avg_reward": 11.572,
+      "arrival_pct": 99.0,
+      "loss": 0.1879
+    },
+    {
+      "steps": 482216,
+      "episodes": 433,
+      "wall_time": 1982.82,
+      "avg_reward": 11.437,
+      "arrival_pct": 99.0,
+      "loss": 0.1328
+    },
+    {
+      "steps": 484727,
+      "episodes": 435,
+      "wall_time": 1991.67,
+      "avg_reward": 11.184,
+      "arrival_pct": 99.0,
+      "loss": 0.0673
+    },
+    {
+      "steps": 487139,
+      "episodes": 437,
+      "wall_time": 2000.18,
+      "avg_reward": 10.946,
+      "arrival_pct": 99.0,
+      "loss": 0.076
+    },
+    {
+      "steps": 488354,
+      "episodes": 438,
+      "wall_time": 2004.45,
+      "avg_reward": 10.795,
+      "arrival_pct": 99.0,
+      "loss": 0.1045
+    },
+    {
+      "steps": 490678,
+      "episodes": 440,
+      "wall_time": 2012.63,
+      "avg_reward": 10.641,
+      "arrival_pct": 99.0,
+      "loss": 0.0688
+    },
+    {
+      "steps": 493065,
+      "episodes": 442,
+      "wall_time": 2021.05,
+      "avg_reward": 10.555,
+      "arrival_pct": 99.0,
+      "loss": 0.0972
+    },
+    {
+      "steps": 494205,
+      "episodes": 443,
+      "wall_time": 2025.06,
+      "avg_reward": 10.557,
+      "arrival_pct": 99.0,
+      "loss": 0.1081
+    },
+    {
+      "steps": 496499,
+      "episodes": 445,
+      "wall_time": 2033.37,
+      "avg_reward": 10.488,
+      "arrival_pct": 99.0,
+      "loss": 0.1576
+    },
+    {
+      "steps": 498703,
+      "episodes": 447,
+      "wall_time": 2041.52,
+      "avg_reward": 10.671,
+      "arrival_pct": 99.0,
+      "loss": 0.1262
+    },
+    {
+      "steps": 500000,
+      "episodes": 449,
+      "wall_time": 2046.09,
+      "avg_reward": 10.39,
+      "arrival_pct": 98.5,
+      "loss": 0.0602
+    }
+  ],
+  "eval_results": {
+    "train_seed": 42,
+    "verify_seeds": [
+      788,
+      999,
+      555,
+      321,
+      444,
+      123,
+      777,
+      256,
+      512,
+      111
+    ],
+    "strict_pct": 100.0,
+    "strict_std": 0.0,
+    "fell_pct": 0.0,
+    "avg_time": 2.2194275780033825,
+    "per_seed": {
+      "788": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9020363092422485,
+        "avg_time": 2.219312865497076
+      },
+      "999": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9019982814788818,
+        "avg_time": 2.219246715328467
+      },
+      "555": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9016189575195312,
+        "avg_time": 2.219102639296188
+      },
+      "321": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9027456045150757,
+        "avg_time": 2.219166908563135
+      },
+      "444": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9020655155181885,
+        "avg_time": 2.2190877192982454
+      },
+      "123": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9024299383163452,
+        "avg_time": 2.2194423357664235
+      },
+      "777": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9024379253387451,
+        "avg_time": 2.2192034883720932
+      },
+      "256": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9026310443878174,
+        "avg_time": 2.2203464337700147
+      },
+      "512": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9021943807601929,
+        "avg_time": 2.2192128279883385
+      },
+      "111": {
+        "strict_pct": 100.0,
+        "loose_pct": 100.0,
+        "fell_pct": 0.0,
+        "avg_max_x": 1.9021530151367188,
+        "avg_time": 2.2201538461538464
+      }
+    }
+  }
+}
