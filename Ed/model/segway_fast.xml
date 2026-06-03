@@ -1,0 +1,97 @@
+<mujoco model="segway_1d_fast">
+
+  <compiler angle="radian"/>
+
+  <!--
+    Design goals vs segway_ed:
+      1. ALL body geoms are ghost (contype=0 conaffinity=0)
+         → MuJoCo skips contact detection entirely → fastest possible sim
+      2. Euler integrator  → ~4x faster than RK4, fine for this timescale
+      3. No reaction wheel, no walls
+      4. drive_motor ±30 N  (was ±100 N — more reasonable, calmer exploration)
+      5. Pure inverted-pendulum-on-cart physics:
+           qpos = [x, theta]   qvel = [xdot, thetadot]   (unchanged from segway_ed)
+  -->
+
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="Euler"/>
+
+  <visual>
+    <headlight diffuse="0.8 0.8 0.8" ambient="0.5 0.5 0.5" specular="0.2 0.2 0.2"/>
+  </visual>
+
+  <default>
+    <joint damping="0.01" armature="0.001"/>
+  </default>
+
+  <worldbody>
+    <light pos="0 0 6" dir="0 0 -1" diffuse="1 1 1" specular="0.3 0.3 0.3"/>
+
+    <!-- Ground: visual reference only — ghost so no contact computation -->
+    <geom name="ground" type="plane" size="10 10 0.1"
+          rgba="0.88 0.88 0.88 1"
+          contype="0" conaffinity="0"/>
+
+    <!-- Goal marker: thin box at x=2, purely visual -->
+    <geom name="goal_marker" type="box"
+          pos="2.0 0 0.01" size="0.05 0.5 0.01"
+          rgba="0.1 0.8 0.1 0.6"
+          contype="0" conaffinity="0"/>
+
+    <!--
+      Segway body origin sits at wheel-centre height (0.18 m = wheel radius).
+      Joints:
+        x_slide   — slides in x (forward/backward only, 1-D)
+        body_pitch — tilts about y-axis
+      Mass breakdown:
+        wheel  0.5 kg at z=0.00 m (at hinge)
+        pole   8.0 kg at z=0.40 m above hinge
+        handle 1.0 kg at z=0.85 m above hinge
+        COM    ≈ 0.43 m above hinge  → well-defined inverted pendulum
+    -->
+    <body name="segway" pos="0 0 0.18">
+
+      <joint name="x_slide"    type="slide" axis="1 0 0"/>
+      <joint name="body_pitch" type="hinge" axis="0 1 0"/>
+
+      <!-- Wheel — visual only -->
+      <geom name="wheel" type="cylinder"
+            size="0.18 0.05" pos="0 0 0" euler="1.5708 0 0"
+            mass="0.5" rgba="0.08 0.08 0.08 1"
+            contype="0" conaffinity="0"/>
+
+      <!-- Spoke cross — makes wheel spin visible in renders -->
+      <geom name="spoke_h" type="box"
+            size="0.17 0.008 0.008" pos="0 0 0"
+            mass="0" rgba="0.5 0.5 0.5 1"
+            contype="0" conaffinity="0"/>
+      <geom name="spoke_v" type="box"
+            size="0.008 0.008 0.17" pos="0 0 0"
+            mass="0" rgba="0.5 0.5 0.5 1"
+            contype="0" conaffinity="0"/>
+
+      <!-- Pole (main body) — visual only -->
+      <geom name="pole" type="box"
+            size="0.08 0.05 0.40" pos="0 0 0.40"
+            mass="8.0" rgba="0.15 0.35 0.80 1"
+            contype="0" conaffinity="0"/>
+
+      <!-- Handlebar — visual only -->
+      <geom name="handle" type="capsule"
+            fromto="0 -0.22 0.85 0 0.22 0.85" size="0.025"
+            mass="1.0" rgba="0.12 0.12 0.12 1"
+            contype="0" conaffinity="0"/>
+
+    </body>
+  </worldbody>
+
+  <actuator>
+    <!--
+      Horizontal force on x_slide.
+      ±30 N: enough to balance and navigate (ctrl/grav ratio ≈ 3x at θ=0.1 rad).
+      Positive force → +x direction.  No sign flip needed in env_step.
+    -->
+    <motor name="drive" joint="x_slide" gear="1"
+           ctrllimited="true" ctrlrange="-30 30"/>
+  </actuator>
+
+</mujoco>
