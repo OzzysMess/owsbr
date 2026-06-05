@@ -21,30 +21,28 @@
 
   <option timestep="0.002" gravity="0 0 -9.81" integrator="Euler"/>
 
+  <visual>
+    <headlight diffuse="1 1 1" ambient="0.8 0.8 0.8" specular="0.3 0.3 0.3"/>
+  </visual>
+
   <default>
     <default class="wheel">
       <geom type="cylinder" friction="2 0.005 0.0001"/>
     </default>
   </default>
 
-  <asset>
-    <texture name="grid" type="2d" builtin="checker"
-             width="512" height="512" rgb1="1 1 1" rgb2="0 0 0"/>
-    <material name="grid" texture="grid" texrepeat="2 2"
-              texuniform="true" reflectance="0.0"/>
-    <texture name="wheel_stripe" type="2d" builtin="checker"
-             width="256" height="256" rgb1="1 1 1" rgb2="0.2 0.2 0.2"/>
-    <material name="wheel_material" texture="wheel_stripe"
-              texrepeat="4 1" texuniform="false" reflectance="0.3"/>
-  </asset>
 
   <worldbody>
+    <!-- Plain light grey floor, no checkerboard -->
     <geom name="ground" type="plane" size="5 5 .05"
-          pos="0 0 0" material="grid"/>
-    <light name="spotlight" mode="targetbodycom" target="segway"
-           ambient=".8 .8 .8" diffuse=".8 .8 .8" specular="0.3 0.3 0.3"
-           pos="0 -6 4" cutoff="30"/>
-    <light name="top" pos="0 0 2" mode="trackcom"/>
+          pos="0 0 0" rgba="0.85 0.85 0.85 1"
+          contype="1" conaffinity="1"/>
+    <!-- Bright overhead light -->
+    <light name="top" pos="0 0 8" dir="0 0 -1"
+           diffuse="1 1 1" specular="0.4 0.4 0.4" directional="true"/>
+    <!-- Side fill light to remove harsh shadows -->
+    <light name="fill" pos="4 -4 5" dir="-1 1 -1"
+           diffuse="0.6 0.6 0.6" specular="0.1 0.1 0.1" directional="true"/>
 
     <!-- Goal marker at x=2 m -->
     <geom name="goal_line" type="box"
@@ -63,7 +61,7 @@
       <body name="ground_wheel" pos="0 0 0" quat="0.7071 0.7071 0 0">
         <joint name="joint_ground_wheel" type="hinge" axis="0 0 1" damping="0.05"/>
         <geom name="wheel_geom" class="wheel"
-              size="0.075 0.05" mass="0.32" material="wheel_material"/>
+              size="0.075 0.05" mass="0.32" rgba="0.05 0.05 0.05 1"/>
       </body>
 
       <!-- Reaction wheel REMOVED -->
