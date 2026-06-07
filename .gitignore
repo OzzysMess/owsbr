@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+MUJOCO_LOG.TXT
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated data
+*.csv
+*.json
+*.h5
+*.hdf5
+*.sqlite
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+!Ed/
