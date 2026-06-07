@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <mujoco model="segway">
+  <option timestep="0.005"/>
   <default>
     <default class="wheel">
       <geom type="cylinder" friction="2 0.005 0.0001"/>
